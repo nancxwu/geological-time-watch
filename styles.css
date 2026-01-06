@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+
+html{
+    background-color:black;
+    padding:0;
+    font-family: "Fragment Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    height:100vh;
+    text-align: center;
+}
+
+body{
+    color:white;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    height:100%;
+}
+
+video {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap:0;
+    padding:0;
+}
+
+#clock {
+    position:absolute;
+    margin:0 8px;
+    z-index: 100;
+    color:rgb(255, 236, 0);
+    font-size: 60px;
+    height:100%;
+    align-content: center;  
+}
+
+
+.label{ 
+    margin:8px;
+    position:absolute;
+    bottom:0;
+    color:rgb(255, 236, 0);
+    font-size: 12px;
+}
+
+.top{
+    top:0;
+}
+
+.quad{
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
