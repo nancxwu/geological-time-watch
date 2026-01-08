@@ -8,24 +8,24 @@ function Recording(a, b){
 }
 
 recordings[0] = new Recording("recordings/20251201_232000_1.mp4","日本东京都葛饰区柴又1丁目");
-recordings[1] = new Recording("recordings/IMG_1084.MOV","The Intersection I cross to get to my Bus Stop, Tomigaya, Shibuya, Tokyo");
-recordings[2] = new Recording("recordings/IMG_1678.mov","天津市西青区万科西华府博华苑8栋");
-recordings[3] = new Recording("recordings/IMG_5580.MOV","The base of Kadoorie hill, where my uncle goes for a secret smoke every evening");
-recordings[4] = new Recording("recordings/IMG_7167.mov","天津市西青区万科西华府博华苑6号");
-recordings[5] = new Recording("recordings/IMG_9604.mov","Bedroom window in Crown Heights, Brooklyn");
-recordings[6] = new Recording("recordings/MAH00699.MP4","Living room overlooking Malcom X Blvd, Brooklyn, USA");
+recordings[1] = new Recording("recordings/IMG_1084.mp4","The Intersection I cross to get to my Bus Stop, Tomigaya, Shibuya, Tokyo");
+recordings[2] = new Recording("recordings/IMG_1678.mp4","天津市西青区万科西华府博华苑8栋");
+recordings[3] = new Recording("recordings/IMG_5580.mp4","The base of Kadoorie hill, where my uncle goes for a secret smoke every evening");
+recordings[4] = new Recording("recordings/IMG_7167.mp4","天津市西青区万科西华府博华苑6号");
+recordings[5] = new Recording("recordings/IMG_9604.mp4","Bedroom window in Crown Heights, Brooklyn");
+recordings[6] = new Recording("recordings/MAH00699.mp4","Living room overlooking Malcom X Blvd, Brooklyn, USA");
 recordings[7] = new Recording("recordings/PXL_20251201_141910982.mp4","Rådhusgade 56, 8300 Odder, Denmark");
 recordings[8] = new Recording("recordings/PXL_20251201_142015265.mp4","Bedroom window of my childhood home with my dog snoring at the foot of my bed, Inner Sunset, San Francisco");
-recordings[9] = new Recording("recordings/Video Dec 01 2025, 6 20 11 AM_Lauren.mov","Cross street of my mom's house, Santa Rosa, California");
-recordings[10] = new Recording("recordings/Video Dec 01 2025, 9 20 07 AM.mov","Corner of Mercer and Spring St, SoHo, New York, New York, 10012");
-recordings[11] = new Recording("recordings/Video Dec 01 2025, 9 20 17 AM.mov","Northeast section of Prospect Park running loop");
-recordings[12] = new Recording("recordings/Video Dec 01 2025, 9 20 25 AM.mov","Riverbend Park, facing the Potomac River");
-recordings[13] = new Recording("recordings/Video Dec 02 2025, 23 16 50.mov","上海杨浦区18号线抚顺路地铁站");
-recordings[14] = new Recording("recordings/Video Dec 02 2025, 23 14 57.mov","天津市南开区保泽道152号");
-recordings[15] = new Recording("recordings/Video Dec 02 2025, 23 25 06.mov","西安市");
-recordings[16] = new Recording("recordings/Video Dec 03 2025, 01 11 27.mov","北京市");
-recordings[17] = new Recording("recordings/Video Dec 03 2025, 07 57 01.mov","天津市和平区解放北路京津国际中心租赁中心");
-recordings[18] = new Recording("recordings/Video Dec 03 2025, 09 40 04.mov","北九州市立大学 ひびきのキャンパス 国際環境工学部 企画管理課 管理係 〒808-0135 福岡県北九州市若松区ひびきの1-1");
+recordings[9] = new Recording("recordings/Video Dec 01 2025, 6 20 11 AM_Lauren.mp4","Cross street of my mom's house, Santa Rosa, California");
+recordings[10] = new Recording("recordings/Video Dec 01 2025, 9 20 07 AM.mp4","Corner of Mercer and Spring St, SoHo, New York, New York, 10012");
+recordings[11] = new Recording("recordings/Video Dec 01 2025, 9 20 17 AM.mp4","Northeast section of Prospect Park running loop");
+recordings[12] = new Recording("recordings/Video Dec 01 2025, 9 20 25 AM.mp4","Riverbend Park, facing the Potomac River");
+recordings[13] = new Recording("recordings/Video Dec 02 2025, 23 16 50.mp4","上海杨浦区18号线抚顺路地铁站");
+recordings[14] = new Recording("recordings/Video Dec 02 2025, 23 14 57.mp4","天津市南开区保泽道152号");
+recordings[15] = new Recording("recordings/Video Dec 02 2025, 23 25 06.mp4","西安市");
+recordings[16] = new Recording("recordings/Video Dec 03 2025, 01 11 27.mp4","北京市");
+recordings[17] = new Recording("recordings/Video Dec 03 2025, 07 57 01.mp4","天津市和平区解放北路京津国际中心租赁中心");
+recordings[18] = new Recording("recordings/Video Dec 03 2025, 09 40 04.mp4","北九州市立大学 ひびきのキャンパス 国際環境工学部 企画管理課 管理係 〒808-0135 福岡県北九州市若松区ひびきの1-1");
 
 function shuffle(array) {
   let currentIndex = array.length;
